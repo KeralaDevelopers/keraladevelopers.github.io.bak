@@ -1,7 +1,6 @@
-# Kerala Developers website built with Astro based on [Astrowind](https://githubbox.com/onwidget/astrowind) template
-
+# Kerala Developers website
 <summary>Table of Contents</summary>
-
+- [create a blog post](#create-blogpost)
 - [About](#about)
 - [Getting started](#getting-started)
   - [Project structure](#project-structure)
@@ -15,9 +14,28 @@
 
 </details>
 
-## about
+##Create Blogpost
+create a pull request of an markdown/mdx file to
+`src/content/post`
+Copy the following markdown template
 
-visit the website at https://kdevs.vercel.app
+```md
+---
+publishDate: 2023-01-09T00:00:00Z
+title: post title
+excerpt: A quick demo post
+image: imagelink.jpeg
+tags:
+  - tag1
+  - software
+  - dev
+---
+
+## content 
+```
+## About
+
+visit the website at https://keraladevs.vercel.app
 <br>
 join us on telegram at https://t.me/keraladevelopers
 
