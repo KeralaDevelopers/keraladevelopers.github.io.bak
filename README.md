@@ -1,5 +1,7 @@
 # Kerala Developers website
+
 <summary>Table of Contents</summary>
+
 - [create a blog post](#create-blogpost)
 - [About](#about)
 - [Getting started](#getting-started)
@@ -14,7 +16,7 @@
 
 </details>
 
-##Create Blogpost
+## Create Blogpost
 create a pull request of an markdown/mdx file to
 `src/content/post`
 Copy the following markdown template
