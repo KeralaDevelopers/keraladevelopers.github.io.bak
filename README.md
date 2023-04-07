@@ -17,9 +17,10 @@
 </details>
 
 ## Create Blogpost
-fork the repository & create a pull request of an markdown/mdx file to
+
+fork the repository & create a pull request of a markdown/mdx file to
 `src/content/post`
-Copy the following markdown template
+Copy the following markdown template as base
 
 ```md
 ---
@@ -33,11 +34,12 @@ tags:
   - dev
 ---
 
-## content 
+## content
 ```
+
 ## About
 
-visit the website at https://keraladevs.vercel.app
+visit the website at https://keraladevelopers.github.io
 <br>
 join us on telegram at https://t.me/keraladevelopers
 
@@ -124,27 +126,27 @@ Basic configuration file: `./src/config.mjs`
 
 ```javascript
 const CONFIG = {
-  name: 'Example',
+  name: "Example",
 
-  origin: 'https://example.com',
-  basePathname: '/', // Change this if you need to deploy to Github Pages, for example
+  origin: "https://example.com",
+  basePathname: "/", // Change this if you need to deploy to Github Pages, for example
   trailingSlash: false, // Generate permalinks with or without "/" at the end
 
-  title: 'Example - This is the homepage title of Example', // Default seo title
-  description: 'This is the homepage description of Example', // Default seo description
-  defaultImage: 'image.jpg', // Default seo image
+  title: "Example - This is the homepage title of Example", // Default seo title
+  description: "This is the homepage description of Example", // Default seo description
+  defaultImage: "image.jpg", // Default seo image
 
-  defaultTheme: 'system', // Values: "system" | "light" | "dark" | "light:only" | "dark:only"
+  defaultTheme: "system", // Values: "system" | "light" | "dark" | "light:only" | "dark:only"
 
-  language: 'en', // Default language
-  textDirection: 'ltr', // Default html text direction
+  language: "en", // Default language
+  textDirection: "ltr", // Default html text direction
 
-  dateFormatter: new Intl.DateTimeFormat('en', {
+  dateFormatter: new Intl.DateTimeFormat("en", {
     // Date format
-    year: 'numeric',
-    month: 'short',
-    day: 'numeric',
-    timeZone: 'UTC',
+    year: "numeric",
+    month: "short",
+    day: "numeric",
+    timeZone: "UTC",
   }),
 
   googleAnalyticsId: false, // Or "G-XXXXXXXXXX",
@@ -155,25 +157,25 @@ const CONFIG = {
     postsPerPage: 4,
 
     post: {
-      permalink: '/%slug%', // variables: %slug%, %year%, %month%, %day%, %hour%, %minute%, %second%, %category%
+      permalink: "/%slug%", // variables: %slug%, %year%, %month%, %day%, %hour%, %minute%, %second%, %category%
       noindex: false,
       disabled: false,
     },
 
     list: {
-      pathname: 'blog', // Blog main path, you can change this to "articles" (/articles)
+      pathname: "blog", // Blog main path, you can change this to "articles" (/articles)
       noindex: false,
       disabled: false,
     },
 
     category: {
-      pathname: 'category', // Category main path /category/some-category
+      pathname: "category", // Category main path /category/some-category
       noindex: true,
       disabled: false,
     },
 
     tag: {
-      pathname: 'tag', // Tag main path /tag/some-tag
+      pathname: "tag", // Tag main path /tag/some-tag
       noindex: true,
       disabled: false,
     },

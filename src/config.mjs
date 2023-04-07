@@ -3,7 +3,7 @@ import defaultImage from './assets/images/default.png';
 const CONFIG = {
   name: 'Kerala Developers',
 
-  origin: 'https://kdevs.vercel.app',
+  origin: 'https://keraladevelopers.github.io',
   basePathname: '/',
   trailingSlash: false,
 
