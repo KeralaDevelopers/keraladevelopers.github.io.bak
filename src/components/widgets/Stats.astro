@@ -1,0 +1,16 @@
+---
+const { items = [] } = Astro.props;
+---
+
+<div class="flex justify-center items-center">
+  <div class="py-10">
+    {
+      items.map((subitems) => (
+        <>
+          <div class="text-5xl font-bold text-primary text-center py-2">{subitems.value}</div>
+          <div class="text-gray-600 uppercase font-semibold text-xl text-center py-2">{subitems.name}</div>
+        </>
+      ))
+    }
+  </div>
+</div>
