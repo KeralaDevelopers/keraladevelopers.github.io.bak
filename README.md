@@ -17,7 +17,7 @@
 </details>
 
 ## Create Blogpost
-create a pull request of an markdown/mdx file to
+fork the repository & create a pull request of an markdown/mdx file to
 `src/content/post`
 Copy the following markdown template
 
