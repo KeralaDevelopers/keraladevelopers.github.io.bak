@@ -4,7 +4,7 @@ const CONFIG = {
   name: 'Kerala Developers',
 
   origin: 'https://keraladevelopers.github.io',
-  basePathname: '/keraladevelopers.github.io',
+  basePathname: '/',
   trailingSlash: false,
 
   title: 'Kerala Developers — Developer community based in kerala',
