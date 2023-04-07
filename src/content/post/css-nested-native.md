@@ -34,4 +34,4 @@ And it will be equivalent to this:
 }
 ```
 
-checkout the chromes official article [here](https://developer.chrome.com/articles/css-nesting/)
+Checkout chrome's official article [here](https://developer.chrome.com/articles/css-nesting/)
