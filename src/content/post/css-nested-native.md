@@ -2,7 +2,7 @@
 publishDate: "2023-04-07T18:13:47.110Z"
 title: CSS Nesting is Now Built in Natively
 excerpt: Chrome 112 introduces native support for CSS nesting, a feature that allows you to define styles for an element within the context of another selector.
-image: https://tse4.mm.bing.net/th?id=OIP.ise-0IwDQRLP03m_ZV9ujgAAAA
+image: https://imgur.com/a/8JMks59
 tags:
   - news
   - css
