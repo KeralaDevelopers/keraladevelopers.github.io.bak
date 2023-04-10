@@ -7,19 +7,19 @@ export const headerData = {
       href:getPermalink('/about')
    },
  
-    {
-      text: 'Products',
-      links: [
-        {
-          text: '#Product 1',
-          href: '#',
-        },
-        {
-          text: '#Product 2',
-          href: '#',
-        }
-      ],
-    },
+    // {
+    //   text: 'Products',
+    //   links: [
+    //     {
+    //       text: '#Product 1',
+    //       href: '#',
+    //     },
+    //     {
+    //       text: '#Product 2',
+    //       href: '#',
+    //     }
+    //   ],
+    // },
        {
       text: 'Contact us',
       href:getPermalink('/contact')

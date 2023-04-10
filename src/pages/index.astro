@@ -1,16 +1,16 @@
 ---
-import { SITE } from '~/config.mjs';
-import Layout from '~/layouts/PageLayout.astro';
+import { SITE } from "~/config.mjs";
+import Layout from "~/layouts/PageLayout.astro";
 
-import Hero from '~/components/widgets/Hero.astro';
+import Hero from "~/components/widgets/Hero.astro";
 // import Note from '~/components/widgets/Note.astro';
 // import Features from '~/components/widgets/Features.astro';
-import Features2 from '~/components/widgets/Features2.astro';
+import Features2 from "~/components/widgets/Features2.astro";
 // import Steps from '~/components/widgets/Steps.astro';
 // import Content from '~/components/widgets/Content.astro';
-import LatestPosts from '~/components/blog/LatestPosts.astro';
-import FAQs from '~/components/widgets/FAQs.astro';
-import Stats from '~/components/widgets/Stats.astro';
+import LatestPosts from "~/components/blog/LatestPosts.astro";
+import FAQs from "~/components/widgets/FAQs.astro";
+import Stats from "~/components/widgets/Stats.astro";
 // import CallToAction from '~/components/widgets/CallToAction.astro';
 
 const meta = {
@@ -24,15 +24,21 @@ const meta = {
   <!-- Hero Widget ******************* -->
 
   <Hero
-    callToAction={{ text: 'Telegram', href: 'https://t.me/keraladevelopers', icon: 'tabler:brand-telegram' }}
-    callToAction2={{ text: 'Group Rules', href: '#rules' }}
+    callToAction={{
+      text: "Telegram",
+      href: "https://t.me/keraladevelopers",
+      icon: "tabler:brand-telegram",
+    }}
+    callToAction2={{ text: "Group Rules", href: "#rules" }}
   >
     <Fragment slot="title">
       Developers Community
       <span class="text-accent dark:text-white highlight"> Kerala</span>
     </Fragment>
 
-    <Fragment slot="subtitle">Group programming enthusiasts based in kerala</Fragment>
+    <Fragment slot="subtitle">
+      Group programming enthusiasts based in kerala
+    </Fragment>
   </Hero>
 
   <!-- Note Widget ******************* -->
@@ -131,15 +137,17 @@ const meta = {
     highlight="Components"
     items={[
       {
-        title: 'Dont ask to ask, just ask',
+        title: "Dont ask to ask, just ask",
         description:
-          'Just ask your doubt/question/problem directly without waiting for the right person or expert, Read more abt this below',
-        icon: 'uil:silence',
+          "Just ask your doubt/question/problem directly without waiting for the right person or expert, Read more abt this below",
+        icon: "uil:silence",
+        link: "/a2a",
       },
       {
-        title: 'No Ads or Promotional content',
-        description: 'Any type of advertisement or promotional content is restricted',
-        icon: 'flat-color-icons:disclaimer',
+        title: "No Ads or Promotional content",
+        description:
+          "Any type of advertisement or promotional content is restricted",
+        icon: "flat-color-icons:disclaimer",
       },
     ]}
   />
@@ -151,10 +159,10 @@ const meta = {
     information={`News and Resources about software development
 		`}
     postIds={[
-      'get-started-website-with-astro-tailwind-css.md',
-      'how-to-customize-astrowind-to-your-brand.md',
-      'useful-resources-to-create-websites.md',
-      'astrowind-template-in-depth.md',
+      "get-started-website-with-astro-tailwind-css.md",
+      "how-to-customize-astrowind-to-your-brand.md",
+      "useful-resources-to-create-websites.md",
+      "astrowind-template-in-depth.md",
     ]}
   />
 
@@ -167,14 +175,15 @@ const meta = {
     items={[
       [
         {
-          question: 'What course should i choose to become a developer?',
-          answer: 'It depends on your intrests',
+          question: "What course should i choose to become a developer?",
+          answer: "It depends on your intrests",
         },
       ],
       [
         {
-          question: 'Where can i find jobs and internships?',
-          answer: 'We do not directly provide any jobs or internship, you can checkout the job listings members shared',
+          question: "Where can i find jobs and internships?",
+          answer:
+            "We do not directly provide any jobs or internship, you can checkout the job listings members shared",
         },
       ],
     ]}
@@ -182,5 +191,5 @@ const meta = {
 
   <!-- Stats Widget ****************** -->
 
-  <Stats items={[{ name: 'Members', value: '5000+' }]} />
+  <Stats items={[{ name: "Members", value: "5000+" }]} />
 </Layout>

@@ -1,7 +1,7 @@
 {
-  "name": "@onwidget/astrowind",
-  "description": "A template to make your website using Astro + Tailwind CSS.",
-  "version": "0.9.8",
+  "name": "keraladevelopers",
+  "description": "Official website of kerala developers community",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
     "dev": "astro dev",

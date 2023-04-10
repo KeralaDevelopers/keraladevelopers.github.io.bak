@@ -7,6 +7,8 @@ tags:
   - news
   - css
   - resources
+category: News
+author: Darkwebplayer
 ---
 
 If you're a fan of CSS preprocessors like SCSS, Less or Stylus, you probably love the ability to nest style rules inside other selectors. This makes your CSS more organized, concise and easier to maintain. But what if you could use nesting without any preprocessor? Well, now you can!
